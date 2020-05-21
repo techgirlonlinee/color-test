@@ -1,7 +1,6 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: black;
 }
 
 .colors-container {
@@ -15,10 +14,11 @@ body {
 .block {
   width: 120px;
   height: 120px;
+  /* border-radius: 50%; */
   /* border: 1px solid #efecec; */
   margin-top: 10px;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 10s;
 }
 
 .block:nth-child(odd) {
@@ -27,37 +27,5 @@ body {
 
 .block:hover {
   opacity: 1;
-  transition: opacity 1s;
+  transition: opacity 0.1s;
 }
-
-/* .a1 {
-  background-color: #000000;
-}
-
-.a2 {
-  background-color: #3a0da3;
-}
-
-.a3 {
-  background-color: #f9ba3f;
-}
-
-.a4 {
-  background-color: #3a0da3;
-}
-
-.a5 {
-  background-color: #000000;
-}
-
-.a6 {
-  background-color: #3a0da3;
-}
-
-.b1 {
-  background-color: #1d419c;
-}
-
-.b6 {
-  background-color: #e85e03;
-} */
